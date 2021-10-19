@@ -10,23 +10,26 @@
 </head>
 
 <body>
+<form id="formulario" name="">
+    <label>Criterio 1: </label>
+    <input type="number" name="" id="Criterio1" autofocus placeholder="Escribe un numero.">
+    <button onclick="Limpiar();">Limpiar.</button>
 
+    <br>
+    <br>
+    <label>Criterio 2: </label>
+    <input type="number" mane="" id="Criterio2" autofocus placeholder="Escribe un mumero. ">
+    <br>
+    <br>
+    <br>
+    <button type="button" onclick="Sumar();">Sumar</button>
+    <button type="button" onclick="Restar();">Restar</button>
+    <button type="button" onclick="Multiplicar();">Multiplicar</button>
+    <button type="button" onclick="Dividir();">Dividir</button>
+    <br>
+    <p>Resultado: <span id="Resultado"></span> </p>
     
-
-    <span>Valor #1</span>
-    <input type="number" id="txt_campo_1" class="monto" onkey="sumar();" />
-    <br/>
-    
-    <span>Valor #2</span>
-    <input type="number" id="txt_campo_2" class="monto" onkey="sumar();" />
-    <br/>
-    
-    <span>Valor #3</span>
-    <input type="number" id="txt_campo_3" class="monto" onkey="sumar();" />
-    <br/>
-    
-    <span>El resultado es: </span> <span id="spTotal"></span>  
-  
+</form>
 </body>
 
 </html>
